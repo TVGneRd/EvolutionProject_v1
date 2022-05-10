@@ -1,0 +1,38 @@
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+.info-bar {
+  position: fixed;
+  bottom: 5px;
+  text-align: right;
+  right: 20px;
+}
+.control-bar {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+}
+.scale-bar {
+  position: fixed;
+  bottom: 5px;
+  left: 20px;
+  font-size: 24px;
+}
+#background {
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#world-area {
+  position: absolute;
+}
+#world {
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
